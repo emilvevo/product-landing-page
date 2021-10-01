@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  height: 20vh;
+  margin: auto;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-container h4 {
+  margin-left: 4px;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  font-weight: 400;
+  margin: 5px;
+}
+
+.premium-button {
+  border: 2px solid rgb(33, 150, 243);
+  background: rgb(33, 150, 243);
+  color: rgb(255, 255, 255);
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  border-radius: 20px;
+}
+
+nav {
+  flex: 2;
+}
+
+.cart-and-library {
+  flex: 1;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.cart-and-library .library {
+  margin-right: 20px;
+  height: 35px;
+  width: 35px;
+  margin-left: 20px;
+}
+
+.premium-pack {
+  position: relative;
+  left: 170px;
+  bottom: 3px;
+}
+
+.premium-pack:hover {
+  box-shadow: 2px 2px 2px silver;
+  border-radius: 20px;
+}
+
+.logo,
+.nav-links,
+.cart-and-library {
+  display: flex;
+}
+
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.presentation {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.introduction {
+  flex: 1;
+}
+
+.cover img {
+  height: 60vh;
+  animation: drop 2s ease;
+}
+
+.cover h4 {
+  margin-left: 130px;
+  margin-bottom: 20px;
+  animation: drop 2s ease;
+}
+
+.intro-text h1 {
+  font-size: 40px;
+}
+
+.intro-text p {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.ab-register {
+  border: 2px solid rgb(33, 150, 243);
+  background: rgb(33, 150, 243);
+  color: rgb(255, 255, 255);
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.ab-register:hover {
+  border: 2px solid rgb(33, 150, 243);
+  background: transparent;
+  color: rgb(33, 150, 243);
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.ab-login {
+  border: 2px solid rgb(33, 150, 243);
+  background: transparent;
+  color: rgb(33, 150, 243);
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.ab-login:hover {
+  border: 2px solid rgb(33, 150, 243);
+  background: rgb(33, 150, 243);
+  color: rgb(255, 255, 255);
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.add-to-cart {
+  border: 2px solid rgb(33, 150, 243);
+  background: rgb(33, 150, 243);
+  color: white;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.sendform {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.sendform input {
+  border: 2px solid rgb(33, 150, 243);
+  padding: 7px;
+  border-radius: 5px;
+  width: 200px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sendform textarea {
+  border: 2px solid rgb(33, 150, 243);
+  padding: 7px;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sendform button {
+  border: 2px solid rgb(33, 150, 243);
+  padding: 7px;
+  border-radius: 5px;
+  background: rgb(33, 150, 243);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+}
+
+.instagram img {
+  width: 30px;
+  height: 30px;
+}
+
+.facebook img {
+  width: 30px;
+  height: 30px;
+}
+
+.twitter img {
+  width: 30px;
+  height: 30px;
+}
+
+.youtube img {
+  width: 30px;
+  height: 30px;
+}
+
+.aboutarea p {
+  font-size: 19px;
+}
+
+.aboutarea h3 {
+  text-align: center;
+}
+
+.aboutarea {
+  margin: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .nav-links li {
+    margin-right: 50px;
+  }
+  .account-button {
+    margin-left: 70px;
+    margin-bottom: 40px;
+  }
+  .logo-container {
+    margin-right: 30px;
+  }
+}
